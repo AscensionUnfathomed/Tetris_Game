@@ -6,14 +6,13 @@
 
 using namespace std;
 
-// Define emoji blocks for each tetromino type
-const string EMOJI_I = "🟦"; // Cyan -> Blue
-const string EMOJI_O = "🟨"; // Yellow -> Yellow
-const string EMOJI_T = "🟪"; // Magenta -> Purple
-const string EMOJI_S = "🟩"; // Green -> Green
-const string EMOJI_Z = "🟥"; // Red -> Red
-const string EMOJI_J = "🟦"; // Blue -> Blue
-const string EMOJI_L = "🟧"; // Orange -> Orange
+const string EMOJI_I = "🟦"; 
+const string EMOJI_O = "🟨"; 
+const string EMOJI_T = "🟪"; 
+const string EMOJI_S = "🟩"; 
+const string EMOJI_Z = "🟥"; 
+const string EMOJI_J = "🟦"; 
+const string EMOJI_L = "🟧"; 
 
 enum class TetrominoType { I, O, T, S, Z, J, L };
 
